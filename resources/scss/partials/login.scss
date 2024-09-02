@@ -1,0 +1,87 @@
+.conatinerLogIn {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #0e3b8e;
+
+    .loginTopCont {
+        width: 100%;
+        height: 20vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .loginTopContLang {
+            padding: 1.5rem 0 .5rem;
+        }
+        .loginTopContLogo {
+            font-size: 4rem;
+            font-family:'Courier New', Courier, monospace;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+    }
+    .loginCenterCont {
+        width: 75%;
+        margin: 0 auto;
+        height: 70vh;
+        color: white;
+        .loginCenterContBubleAccessCont {
+            width: 100%;
+            padding: .5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            border-radius: .5rem;
+            color: rgba(0, 0, 0, 0.564);
+            font-weight: bold;
+            span {
+                padding-left: .7rem;
+            }
+            svg {
+                color: red;
+            }
+        }
+        .hr {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: 1px;
+            background-color: white;
+            margin: 2rem 0;
+            span {
+                position: absolute;
+                top: 0%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: #0e3b8e;
+                padding: 0 1rem;
+                font-size: 1.3rem;
+            }
+        }
+        .bottoneAccedi {
+            width: 100%;
+            background: white;
+            text-align: center;
+            border: 0;
+            border-radius: .5rem;
+            padding: .5rem;
+            color: #1f6dff;
+        }
+    }
+    .loginBottomCont {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: #4380f397;
+    }
+}
