@@ -24,16 +24,18 @@
 
 
         <main>
-            <div class="conatinerLogIn">
-                <div class="loginTopCont">
-                    <span class="loginTopContLang"><small>italiano</small></span>
-                    <h1 class="loginTopContLogo">JAUNE</h1>
+            <div class="conatinerRegister">
+                <div class="registerTopCont">
+                    <a class="text-white" href="{{ route('login') }}"><span><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                      </svg></span></a>
+                    <span>Registrati</span>
+                    <span class="invisible"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                      </svg></span>
                 </div>
                 @yield('content')
-                <div class="loginBottomCont">
-                    <small>from</small>
-                    <span>Jaune</span>
-                </div>
+                
             </div>
         </main>
     </div>

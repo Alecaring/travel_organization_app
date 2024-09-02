@@ -1,7 +1,7 @@
-@extends('layouts.app')
+@extends('layouts.log.register')
 
 @section('content')
-<div class="container mt-4">
+    {{-- <div class="container mt-4">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -73,5 +73,100 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
+    <div class="mainContainerRegister">
+        <div class="containerSlideLinks">
+            <div id="telefono" class="cel-1 active">
+                <span>TELEFONO</span>
+            </div>
+            <div id="email" class="cel-2">
+                <span>INDIRIZZO E-MAIL</span>
+            </div>
+        </div>
+
+        <!-- Form per Telefono -->
+        <div id="containerTelefono" class="tab-content mt-4 w-75 m-auto">
+            <form action="{{ route('register') }}" method="POST">
+                @csrf
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <select class="form-select" aria-label="Prefisso">
+                            <option selected>+39</option>
+                            <option value="1">+1</option>
+                            <option value="44">+44</option>
+                            <option value="33">+33</option>
+                            <!-- Aggiungi altri prefissi se necessario -->
+                        </select>
+                    </div>
+                    <input type="tel" class="form-control" name="phone" placeholder="Numero di telefono" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Avanti</button>
+            </form>
+        </div>
+
+        <!-- Form per Email -->
+        <div id="containerEmail" class="tab-content d-none mt-4 w-75 m-auto">
+            <form action="{{ route('register') }}" method="POST">
+                @csrf
+                <div class="mb-2">
+                    <input type="email" class="form-control" id="emailInput" name="email" placeholder="Indirizzo email"
+                        required>
+                    <div id="emailSuggestions" class="list-group mt-2"></div>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Avanti</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const telefonoElem = document.getElementById('telefono');
+            const emailElem = document.getElementById('email');
+            const contTel = document.getElementById('containerTelefono');
+            const contEmail = document.getElementById('containerEmail');
+
+            // Cambia scheda
+            telefonoElem.addEventListener('click', function() {
+                contEmail.classList.add('d-none');
+                contTel.classList.remove('d-none');
+                telefonoElem.classList.add('active');
+                emailElem.classList.remove('active');
+                telefonoElem.style.borderBottom = '1px solid rgb(255, 255, 255)';
+                emailElem.style.borderBottom = '0';
+            });
+
+            emailElem.addEventListener('click', function() {
+                contTel.classList.add('d-none');
+                contEmail.classList.remove('d-none');
+                emailElem.classList.add('active');
+                telefonoElem.classList.remove('active');
+                telefonoElem.style.borderBottom = '0';
+                emailElem.style.borderBottom = '1px solid rgb(255, 255, 255)';
+            });
+
+            // Suggerimenti per l'email
+            const emailInput = document.getElementById('emailInput');
+            const emailSuggestions = document.getElementById('emailSuggestions');
+            const domains = ['@gmail.com', '@yahoo.com', '@outlook.com', '@hotmail.com'];
+
+            emailInput.addEventListener('input', function() {
+                const value = emailInput.value.split('@')[0];
+                emailSuggestions.innerHTML = ''; // Svuota i suggerimenti precedenti
+
+                if (value) {
+                    domains.forEach(function(domain) {
+                        const suggestion = document.createElement('div');
+                        suggestion.className = 'list-group-item list-group-item-action';
+                        suggestion.textContent = value + domain;
+                        suggestion.onclick = function() {
+                            emailInput.value = suggestion.textContent;
+                            emailSuggestions.innerHTML =
+                            ''; // Svuota i suggerimenti dopo la selezione
+                        };
+                        emailSuggestions.appendChild(suggestion);
+                    });
+                }
+            });
+        });
+    </script>
 @endsection
