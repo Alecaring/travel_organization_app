@@ -86,9 +86,9 @@
 
         <!-- Form per Telefono -->
         <div id="containerTelefono" class="tab-content mt-4 w-75 m-auto">
-            <form action="{{ route('register') }}" method="POST">
+            <form method="POST" action="{{ route('register.step1.post') }}">
                 @csrf
-                <div class="input-group mb-3">
+                {{-- <div class="input-group mb-3">
                     <div class="input-group-prepend">
                         <select class="form-select" aria-label="Prefisso">
                             <option selected>+39</option>
@@ -98,22 +98,34 @@
                             <!-- Aggiungi altri prefissi se necessario -->
                         </select>
                     </div>
-                    <input type="tel" class="form-control" name="phone" placeholder="Numero di telefono" required>
+                    <div class="form-floating">
+                        <input type="tel" class="form-control" name="phone" required>
+                        <label for="">Numero di telefono</label>
+                    </div>
+                </div> --}}
+                <div class="input-group mb-3">
+                    <span class="input-group-text">+39</span>
+                    <div class="form-floating">
+                        <input type="number" class="form-control" name="phone" id="phone" placeholder="Username">
+                        <label for="phone">Numero di telefono</label>
+                    </div>
                 </div>
                 <button type="submit" class="btn btn-primary w-100">Avanti</button>
-            </form>
+
         </div>
 
         <!-- Form per Email -->
         <div id="containerEmail" class="tab-content d-none mt-4 w-75 m-auto">
-            <form action="{{ route('register') }}" method="POST">
-                @csrf
-                <div class="mb-2">
+            {{-- <div class="mb-2">
                     <input type="email" class="form-control" id="emailInput" name="email" placeholder="Indirizzo email"
                         required>
                     <div id="emailSuggestions" class="list-group mt-2"></div>
-                </div>
-                <button type="submit" class="btn btn-primary w-100">Avanti</button>
+                </div> --}}
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Indirizzo e-mail">
+                <label for="email">Indirizzo e-mail</label>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Avanti</button>
             </form>
         </div>
     </div>
@@ -161,7 +173,7 @@
                         suggestion.onclick = function() {
                             emailInput.value = suggestion.textContent;
                             emailSuggestions.innerHTML =
-                            ''; // Svuota i suggerimenti dopo la selezione
+                                ''; // Svuota i suggerimenti dopo la selezione
                         };
                         emailSuggestions.appendChild(suggestion);
                     });
