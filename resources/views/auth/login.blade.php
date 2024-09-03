@@ -69,7 +69,7 @@
                 </div>
             </div>
         </form>
-        <span class="w-100 text-center d-block">Non hai un account? <a class="text-white" href="{{ route('register') }}">Iscriviti</a></span>
+        <span class="w-100 text-center d-block">Non hai un account? <a class="text-white" href="{{ route('register.step1') }}">Iscriviti</a></span>
     </div>
     {{-- /center --}}
 @endsection

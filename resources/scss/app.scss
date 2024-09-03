@@ -1,4 +1,16 @@
 @import "~bootstrap/scss/bootstrap";
 @import './partials/login.scss';
 @import './partials/register.scss';
+@import './partials/admin/header.scss';
+@import './partials/admin/dashboard.scss';
 
+::-webkit-scrollbar {
+    display: none;
+    background-color: transparent;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}

@@ -76,109 +76,43 @@
 </div> --}}
     <div class="mainContainerRegister">
         <div class="containerSlideLinks">
-            <div id="telefono" class="cel-1 active">
-                <span>TELEFONO</span>
-            </div>
+
             <div id="email" class="cel-2">
-                <span>INDIRIZZO E-MAIL</span>
+                <span>Inserisci e verifica la tua E-mail</span>
             </div>
         </div>
-
-        <!-- Form per Telefono -->
-        <div id="containerTelefono" class="tab-content mt-4 w-75 m-auto">
+        <div id="containerEmail" class="tab-content w-100 m-auto">
             <form method="POST" action="{{ route('register.step1.post') }}">
                 @csrf
-                {{-- <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <select class="form-select" aria-label="Prefisso">
-                            <option selected>+39</option>
-                            <option value="1">+1</option>
-                            <option value="44">+44</option>
-                            <option value="33">+33</option>
-                            <!-- Aggiungi altri prefissi se necessario -->
-                        </select>
-                    </div>
-                    <div class="form-floating">
-                        <input type="tel" class="form-control" name="phone" required>
-                        <label for="">Numero di telefono</label>
-                    </div>
-                </div> --}}
-                <div class="input-group mb-3">
-                    <span class="input-group-text">+39</span>
-                    <div class="form-floating">
-                        <input type="number" class="form-control" name="phone" id="phone" placeholder="Username">
-                        <label for="phone">Numero di telefono</label>
-                    </div>
+                <div class="form-floating">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Indirizzo e-mail">
+                    <label for="email">Indirizzo e-mail</label>
                 </div>
-                <button type="submit" class="btn btn-primary w-100">Avanti</button>
-
-        </div>
-
-        <!-- Form per Email -->
-        <div id="containerEmail" class="tab-content d-none mt-4 w-75 m-auto">
-            {{-- <div class="mb-2">
-                    <input type="email" class="form-control" id="emailInput" name="email" placeholder="Indirizzo email"
-                        required>
-                    <div id="emailSuggestions" class="list-group mt-2"></div>
-                </div> --}}
-            <div class="form-floating mb-3">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Indirizzo e-mail">
-                <label for="email">Indirizzo e-mail</label>
-            </div>
-            <button type="submit" class="btn btn-primary w-100">Avanti</button>
+                <div class="hr my-4">
+                    <span>O</span>
+                </div>
+                <div class="loginCenterContBubleAccessCont mb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-google" viewBox="0 0 16 16">
+                        <path
+                            d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z" />
+                    </svg><span>continua con goolge</span>
+                </div>
+                <div class="loginCenterContBubleAccessCont mb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue"
+                        class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                    </svg><span>continua con facebook</span>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 mt-4">Avanti</button>
             </form>
         </div>
+
+
     </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const telefonoElem = document.getElementById('telefono');
-            const emailElem = document.getElementById('email');
-            const contTel = document.getElementById('containerTelefono');
-            const contEmail = document.getElementById('containerEmail');
 
-            // Cambia scheda
-            telefonoElem.addEventListener('click', function() {
-                contEmail.classList.add('d-none');
-                contTel.classList.remove('d-none');
-                telefonoElem.classList.add('active');
-                emailElem.classList.remove('active');
-                telefonoElem.style.borderBottom = '1px solid rgb(255, 255, 255)';
-                emailElem.style.borderBottom = '0';
-            });
 
-            emailElem.addEventListener('click', function() {
-                contTel.classList.add('d-none');
-                contEmail.classList.remove('d-none');
-                emailElem.classList.add('active');
-                telefonoElem.classList.remove('active');
-                telefonoElem.style.borderBottom = '0';
-                emailElem.style.borderBottom = '1px solid rgb(255, 255, 255)';
-            });
-
-            // Suggerimenti per l'email
-            const emailInput = document.getElementById('emailInput');
-            const emailSuggestions = document.getElementById('emailSuggestions');
-            const domains = ['@gmail.com', '@yahoo.com', '@outlook.com', '@hotmail.com'];
-
-            emailInput.addEventListener('input', function() {
-                const value = emailInput.value.split('@')[0];
-                emailSuggestions.innerHTML = ''; // Svuota i suggerimenti precedenti
-
-                if (value) {
-                    domains.forEach(function(domain) {
-                        const suggestion = document.createElement('div');
-                        suggestion.className = 'list-group-item list-group-item-action';
-                        suggestion.textContent = value + domain;
-                        suggestion.onclick = function() {
-                            emailInput.value = suggestion.textContent;
-                            emailSuggestions.innerHTML =
-                                ''; // Svuota i suggerimenti dopo la selezione
-                        };
-                        emailSuggestions.appendChild(suggestion);
-                    });
-                }
-            });
-        });
-    </script>
+   
 @endsection

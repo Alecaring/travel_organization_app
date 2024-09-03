@@ -21,7 +21,7 @@
         
         <div class="form-group">
             <label for="name">Nome:</label>
-            <input type="text" name="name" id="name" class="form-control" value="{{ old('name') }}" required>
+            <input type="text" name="username" id="name" class="form-control" value="{{ old('name') }}" required>
         </div>
         
         <div class="form-group">
