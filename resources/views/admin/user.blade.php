@@ -82,4 +82,306 @@
             </div>
         </div>
     </div>
+
+    <div class="contUserSuggest">
+        <div class="contTop">
+            <span class="first">Persone suggerite</span>
+            <span class="last text-primary">Mostra tutto</span>
+        </div>
+        <div class="contBottom">
+            <div class="contSlider">
+                <div class="cardSuggest">
+                    <span class="delectBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                          </svg>
+                    </span>
+
+                    <div class="containerPhoto">
+                        <span class="circle"><img src="https://www.mckinsey.com/it/~/media/mckinsey/our%20people/enrico%20lucchinetti/enrico_lucchinetti_fc_mask_profile_1536x1152.jpg?cq=50&mw=480&car=1:1&cpy=Center" alt=""></span>
+                    </div>
+                    <div class="contBottom">
+                        <div class="contTxt">
+                            <span class="name">cris</span>
+                            <span class="followers">Followers: fracarrier + altri 17</span>
+                        </div>
+                        <div class="contBtn">
+                            <button class="ms_btn">Segui</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSuggest">
+                    <span class="delectBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                          </svg>
+                    </span>
+
+                    <div class="containerPhoto">
+                        <span class="circle"><img src="https://www.mckinsey.com/it/~/media/mckinsey/our%20people/enrico%20lucchinetti/enrico_lucchinetti_fc_mask_profile_1536x1152.jpg?cq=50&mw=480&car=1:1&cpy=Center" alt=""></span>
+                    </div>
+                    <div class="contBottom">
+                        <div class="contTxt">
+                            <span class="name">cris</span>
+                            <span class="followers">Followers: fracarrier + altri 17</span>
+                        </div>
+                        <div class="contBtn">
+                            <button class="ms_btn">Segui</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSuggest">
+                    <span class="delectBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                          </svg>
+                    </span>
+
+                    <div class="containerPhoto">
+                        <span class="circle"><img src="https://www.mckinsey.com/it/~/media/mckinsey/our%20people/enrico%20lucchinetti/enrico_lucchinetti_fc_mask_profile_1536x1152.jpg?cq=50&mw=480&car=1:1&cpy=Center" alt=""></span>
+                    </div>
+                    <div class="contBottom">
+                        <div class="contTxt">
+                            <span class="name">cris</span>
+                            <span class="followers">Followers: fracarrier + altri 17</span>
+                        </div>
+                        <div class="contBtn">
+                            <button class="ms_btn">Segui</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSuggest">
+                    <span class="delectBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                          </svg>
+                    </span>
+
+                    <div class="containerPhoto">
+                        <span class="circle"><img src="https://www.mckinsey.com/it/~/media/mckinsey/our%20people/enrico%20lucchinetti/enrico_lucchinetti_fc_mask_profile_1536x1152.jpg?cq=50&mw=480&car=1:1&cpy=Center" alt=""></span>
+                    </div>
+                    <div class="contBottom">
+                        <div class="contTxt">
+                            <span class="name">cris</span>
+                            <span class="followers">Followers: fracarrier + altri 17</span>
+                        </div>
+                        <div class="contBtn">
+                            <button class="ms_btn">Segui</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSuggest">
+                    <span class="delectBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                          </svg>
+                    </span>
+
+                    <div class="containerPhoto">
+                        <span class="circle"><img src="https://www.mckinsey.com/it/~/media/mckinsey/our%20people/enrico%20lucchinetti/enrico_lucchinetti_fc_mask_profile_1536x1152.jpg?cq=50&mw=480&car=1:1&cpy=Center" alt=""></span>
+                    </div>
+                    <div class="contBottom">
+                        <div class="contTxt">
+                            <span class="name">cris</span>
+                            <span class="followers">Followers: fracarrier + altri 17</span>
+                        </div>
+                        <div class="contBtn">
+                            <button class="ms_btn">Segui</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSuggest">
+                    <span class="delectBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                          </svg>
+                    </span>
+
+                    <div class="containerPhoto">
+                        <span class="circle"><img src="https://www.mckinsey.com/it/~/media/mckinsey/our%20people/enrico%20lucchinetti/enrico_lucchinetti_fc_mask_profile_1536x1152.jpg?cq=50&mw=480&car=1:1&cpy=Center" alt=""></span>
+                    </div>
+                    <div class="contBottom">
+                        <div class="contTxt">
+                            <span class="name">cris</span>
+                            <span class="followers">Followers: fracarrier + altri 17</span>
+                        </div>
+                        <div class="contBtn">
+                            <button class="ms_btn">Segui</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSuggest">
+                    <span class="delectBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                          </svg>
+                    </span>
+
+                    <div class="containerPhoto">
+                        <span class="circle"><img src="https://www.mckinsey.com/it/~/media/mckinsey/our%20people/enrico%20lucchinetti/enrico_lucchinetti_fc_mask_profile_1536x1152.jpg?cq=50&mw=480&car=1:1&cpy=Center" alt=""></span>
+                    </div>
+                    <div class="contBottom">
+                        <div class="contTxt">
+                            <span class="name">cris</span>
+                            <span class="followers">Followers: fracarrier + altri 17</span>
+                        </div>
+                        <div class="contBtn">
+                            <button class="ms_btn">Segui</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="evidentStory">
+        <div class="contSlideer">
+            <div class="cardStories">
+                <div class="topCont">
+                    <span class="buble"></span>
+                </div>
+                <div class="bottmCont">
+                    <span class="description">Spain</span>
+                </div>
+            </div>
+            <div class="cardStories">
+                <div class="topCont">
+                    <span class="buble"></span>
+                </div>
+                <div class="bottmCont">
+                    <span class="description">Spain</span>
+                </div>
+            </div>
+            <div class="cardStories">
+                <div class="topCont">
+                    <span class="buble"></span>
+                </div>
+                <div class="bottmCont">
+                    <span class="description">Spain</span>
+                </div>
+            </div>
+            <div class="cardStories">
+                <div class="topCont">
+                    <span class="buble"></span>
+                </div>
+                <div class="bottmCont">
+                    <span class="description">Spain</span>
+                </div>
+            </div>
+            <div class="cardStories">
+                <div class="topCont">
+                    <span class="buble"></span>
+                </div>
+                <div class="bottmCont">
+                    <span class="description">Spain</span>
+                </div>
+            </div>
+            <div class="cardStories">
+                <div class="topCont">
+                    <span class="buble"></span>
+                </div>
+                <div class="bottmCont">
+                    <span class="description">Spain</span>
+                </div>
+            </div>
+            <div class="cardStories">
+                <div class="topCont">
+                    <span class="buble"></span>
+                </div>
+                <div class="bottmCont">
+                    <span class="description">Spain</span>
+                </div>
+            </div>
+            <div class="cardStories">
+                <div class="topCont">
+                    <span class="buble"></span>
+                </div>
+                <div class="bottmCont">
+                    <span class="description">Spain</span>
+                </div>
+            </div>
+            <div class="cardStories">
+                <div class="topCont">
+                    <span class="buble"></span>
+                </div>
+                <div class="bottmCont">
+                    <span class="description">Spain</span>
+                </div>
+            </div>
+            <div class="cardStories">
+                <div class="topCont">
+                    <span class="buble"></span>
+                </div>
+                <div class="bottmCont">
+                    <span class="description">Spain</span>
+                </div>
+            </div>
+            <div class="cardStories">
+                <div class="topCont">
+                    <span class="buble"></span>
+                </div>
+                <div class="bottmCont">
+                    <span class="description">Spain</span>
+                </div>
+            </div>
+            <div class="cardStories">
+                <div class="topCont">
+                    <span class="buble"></span>
+                </div>
+                <div class="bottmCont">
+                    <span class="description">Spain</span>
+                </div>
+            </div>
+            <div class="cardStories">
+                <div class="topCont">
+                    <span class="buble"></span>
+                </div>
+                <div class="bottmCont">
+                    <span class="description">Spain</span>
+                </div>
+            </div>
+            <div class="cardStories">
+                <div class="topCont">
+                    <span class="buble"></span>
+                </div>
+                <div class="bottmCont">
+                    <span class="description">Spain</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contPosts">
+        <div class="header">
+            <div class="div3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
+                    <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z"/>
+                  </svg>
+            </div>
+            <div class="div3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-camera-video" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1z"/>
+                  </svg>
+            </div>
+            <div class="div3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                    <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/>
+                  </svg>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+    </div>
 @endsection
