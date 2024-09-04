@@ -24,16 +24,26 @@
 
 
         <main>
-            <div class="conatinerLogIn">
+            <div class="conatinerLogIn"> 
+
                 <div class="loginTopCont">
-                    <span class="loginTopContLang"><small>italiano</small></span>
-                    <h1 class="loginTopContLogo">JAUNE</h1>
+                    <span class="loginTopContLang">
+                        <small>italiano</small>
+                    </span>
+                    <p class="loginTopContLogo">jaune</p>
                 </div>
-                @yield('content')
+
+
+                <div class="loginCenterCont">
+                    @yield('content')
+                </div>
+
+
                 <div class="loginBottomCont">
                     <small>from</small>
                     <span>Jaune</span>
                 </div>
+
             </div>
         </main>
     </div>

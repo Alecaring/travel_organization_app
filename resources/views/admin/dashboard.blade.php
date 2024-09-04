@@ -42,8 +42,6 @@
             <div class="d-flex justify-content-center flex-column align-items-center">
                 <div class="circle">
                     <img src="https://www.mckinsey.com/it/~/media/mckinsey/our%20people/enrico%20lucchinetti/enrico_lucchinetti_fc_mask_profile_1536x1152.jpg?cq=50&mw=480&car=1:1&cpy=Center"
-                        alt=""><img
-                        src="https://www.donnamoderna.com/content/uploads/2021/09/app-per-conoscere-persone-830x625.jpg"
                         alt="">
                 </div>
                 <small class="text-center w-100 d-block me">La tua storia</small>

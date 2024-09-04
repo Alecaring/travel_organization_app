@@ -29,7 +29,7 @@
                 <input type="email" class="form-control @error('email') is-invalid @enderror" id="email"
                     placeholder="name@example.com" name="email" value="{{ old('email') }}" required autocomplete="email"
                     autofocus>
-                <label class="text-dark" for="email"><small>Numero di telefono, nome utente o e-mail</small></label>
+                <label class="text-dark" for="email"><small>Nome utente o e-mail</small></label>
                 @error('email')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
