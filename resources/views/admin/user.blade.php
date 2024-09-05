@@ -98,11 +98,32 @@
                     </span>
 
                     <div class="containerPhoto">
-                        <span class="circle"><img src="https://www.mckinsey.com/it/~/media/mckinsey/our%20people/enrico%20lucchinetti/enrico_lucchinetti_fc_mask_profile_1536x1152.jpg?cq=50&mw=480&car=1:1&cpy=Center" alt=""></span>
+                        <span class="circle"><img src="https://t4.ftcdn.net/jpg/03/83/25/83/360_F_383258331_D8imaEMl8Q3lf7EKU2Pi78Cn0R7KkW9o.jpg" alt=""></span>
                     </div>
                     <div class="contBottom">
                         <div class="contTxt">
                             <span class="name">cris</span>
+                            <span class="followers">Followers: fracarrier + altri 17</span>
+                        </div>
+                        <div class="contBtn">
+                            <button class="ms_btn">Segui</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cardSuggest">
+                    <span class="delectBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                          </svg>
+                    </span>
+
+                    <div class="containerPhoto">
+                        <span class="circle"><img src="https://assets.clevelandclinic.org/transform/e4f517d3-8cc3-42be-ad1f-907502f9085b/person-Yawns-Office-1440494736-770x533-1_jpg" alt=""></span>
+                    </div>
+                    <div class="contBottom">
+                        <div class="contTxt">
+                            <span class="name">Melia_me</span>
                             <span class="followers">Followers: fracarrier + altri 17</span>
                         </div>
                         <div class="contBtn">
@@ -118,11 +139,11 @@
                     </span>
 
                     <div class="containerPhoto">
-                        <span class="circle"><img src="https://www.mckinsey.com/it/~/media/mckinsey/our%20people/enrico%20lucchinetti/enrico_lucchinetti_fc_mask_profile_1536x1152.jpg?cq=50&mw=480&car=1:1&cpy=Center" alt=""></span>
+                        <span class="circle"><img src="https://www.verywellmind.com/thmb/Eww5tSxM2eYCfxikvK2THFxRSA0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1411373323-6988f2ee3a17422084a3c7bbff5b4d4a.jpg" alt=""></span>
                     </div>
                     <div class="contBottom">
                         <div class="contTxt">
-                            <span class="name">cris</span>
+                            <span class="name">Josephine</span>
                             <span class="followers">Followers: fracarrier + altri 17</span>
                         </div>
                         <div class="contBtn">
@@ -138,11 +159,11 @@
                     </span>
 
                     <div class="containerPhoto">
-                        <span class="circle"><img src="https://www.mckinsey.com/it/~/media/mckinsey/our%20people/enrico%20lucchinetti/enrico_lucchinetti_fc_mask_profile_1536x1152.jpg?cq=50&mw=480&car=1:1&cpy=Center" alt=""></span>
+                        <span class="circle"><img src="https://assets.clevelandclinic.org/transform/6f260ca6-febc-4728-9f73-7d8c534552e5/person-drinking-coffee-2008302618" alt=""></span>
                     </div>
                     <div class="contBottom">
                         <div class="contTxt">
-                            <span class="name">cris</span>
+                            <span class="name">Arthurdibia</span>
                             <span class="followers">Followers: fracarrier + altri 17</span>
                         </div>
                         <div class="contBtn">
@@ -158,11 +179,11 @@
                     </span>
 
                     <div class="containerPhoto">
-                        <span class="circle"><img src="https://www.mckinsey.com/it/~/media/mckinsey/our%20people/enrico%20lucchinetti/enrico_lucchinetti_fc_mask_profile_1536x1152.jpg?cq=50&mw=480&car=1:1&cpy=Center" alt=""></span>
+                        <span class="circle"><img src="https://t3.ftcdn.net/jpg/03/02/88/46/360_F_302884605_actpipOdPOQHDTnFtp4zg4RtlWzhOASp.jpg" alt=""></span>
                     </div>
                     <div class="contBottom">
                         <div class="contTxt">
-                            <span class="name">cris</span>
+                            <span class="name">Paolodilo_nardo</span>
                             <span class="followers">Followers: fracarrier + altri 17</span>
                         </div>
                         <div class="contBtn">
@@ -178,51 +199,11 @@
                     </span>
 
                     <div class="containerPhoto">
-                        <span class="circle"><img src="https://www.mckinsey.com/it/~/media/mckinsey/our%20people/enrico%20lucchinetti/enrico_lucchinetti_fc_mask_profile_1536x1152.jpg?cq=50&mw=480&car=1:1&cpy=Center" alt=""></span>
+                        <span class="circle"><img src="https://www.shutterstock.com/image-photo/young-handsome-man-beard-wearing-600nw-1703979295.jpg" alt=""></span>
                     </div>
                     <div class="contBottom">
                         <div class="contTxt">
-                            <span class="name">cris</span>
-                            <span class="followers">Followers: fracarrier + altri 17</span>
-                        </div>
-                        <div class="contBtn">
-                            <button class="ms_btn">Segui</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="cardSuggest">
-                    <span class="delectBtn">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
-                          </svg>
-                    </span>
-
-                    <div class="containerPhoto">
-                        <span class="circle"><img src="https://www.mckinsey.com/it/~/media/mckinsey/our%20people/enrico%20lucchinetti/enrico_lucchinetti_fc_mask_profile_1536x1152.jpg?cq=50&mw=480&car=1:1&cpy=Center" alt=""></span>
-                    </div>
-                    <div class="contBottom">
-                        <div class="contTxt">
-                            <span class="name">cris</span>
-                            <span class="followers">Followers: fracarrier + altri 17</span>
-                        </div>
-                        <div class="contBtn">
-                            <button class="ms_btn">Segui</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="cardSuggest">
-                    <span class="delectBtn">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
-                          </svg>
-                    </span>
-
-                    <div class="containerPhoto">
-                        <span class="circle"><img src="https://www.mckinsey.com/it/~/media/mckinsey/our%20people/enrico%20lucchinetti/enrico_lucchinetti_fc_mask_profile_1536x1152.jpg?cq=50&mw=480&car=1:1&cpy=Center" alt=""></span>
-                    </div>
-                    <div class="contBottom">
-                        <div class="contTxt">
-                            <span class="name">cris</span>
+                            <span class="name">Gianni_mass</span>
                             <span class="followers">Followers: fracarrier + altri 17</span>
                         </div>
                         <div class="contBtn">
@@ -238,7 +219,7 @@
         <div class="contSlideer">
             <div class="cardStories">
                 <div class="topCont">
-                    <span class="buble"></span>
+                    <span class="buble"><img src="https://mp-prod-de-medialib.s3-eu-central-1.amazonaws.com/motivwelt/stockimage/poster-wassertropfen-petrol/overview/poster-wassertropfen-petrol-l.jpg" alt=""></span>
                 </div>
                 <div class="bottmCont">
                     <span class="description">Spain</span>
@@ -246,106 +227,98 @@
             </div>
             <div class="cardStories">
                 <div class="topCont">
-                    <span class="buble"></span>
+                    <span class="buble"><img src="https://i.pinimg.com/236x/d0/9c/fe/d09cfe87d8bcda5476fcbed92111e9f8.jpg" alt=""></span>
                 </div>
                 <div class="bottmCont">
-                    <span class="description">Spain</span>
+                    <span class="description">Monaco</span>
                 </div>
             </div>
             <div class="cardStories">
                 <div class="topCont">
-                    <span class="buble"></span>
+                    <span class="buble"><img src="https://img.pixers.pics/pho_wat(s3:700/FO/64/96/00/95/700_FO64960095_b091401fac3fe0fef7e675f489646903.jpg,700,700,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,650,jpg)/poster-suggestive-vie-del-mediterraneo-foto-artistiche.jpg.jpg" alt=""></span>
                 </div>
                 <div class="bottmCont">
-                    <span class="description">Spain</span>
+                    <span class="description">Italy</span>
                 </div>
             </div>
             <div class="cardStories">
                 <div class="topCont">
-                    <span class="buble"></span>
+                    <span class="buble"><img src="https://brunofabiani.wordpress.com/wp-content/uploads/2020/03/img_e9466.jpg?w=1024" alt=""></span>
                 </div>
                 <div class="bottmCont">
-                    <span class="description">Spain</span>
+                    <span class="description">Salento</span>
                 </div>
             </div>
             <div class="cardStories">
                 <div class="topCont">
-                    <span class="buble"></span>
+                    <span class="buble"><img src="https://i.pinimg.com/550x/af/6c/0c/af6c0cbbfb4601e1fb151e4718dea564.jpg" alt=""></span>
                 </div>
                 <div class="bottmCont">
-                    <span class="description">Spain</span>
+                    <span class="description">Japan</span>
                 </div>
             </div>
             <div class="cardStories">
                 <div class="topCont">
-                    <span class="buble"></span>
+                    <span class="buble"><img src="https://ilfotografo.it/wp-content/uploads/2019/01/evening-1777352_960_720.jpg" alt=""></span>
                 </div>
                 <div class="bottmCont">
-                    <span class="description">Spain</span>
+                    <span class="description">Greece</span>
                 </div>
             </div>
             <div class="cardStories">
                 <div class="topCont">
-                    <span class="buble"></span>
+                    <span class="buble"><img src="https://media-assets.ad-italia.it/photos/60f13ecb7418b0b14e63efa6/master/w_1600%2Cc_limit/photo6.jpg" alt=""></span>
                 </div>
                 <div class="bottmCont">
-                    <span class="description">Spain</span>
+                    <span class="description">Norwey</span>
                 </div>
             </div>
             <div class="cardStories">
                 <div class="topCont">
-                    <span class="buble"></span>
+                    <span class="buble"><img src="https://www.turismoitalianews.it/images/stories/piemonte/Monferrato02_PhConsorzioPromozioneTuristica.jpg" alt=""></span>
                 </div>
                 <div class="bottmCont">
-                    <span class="description">Spain</span>
+                    <span class="description">Florence</span>
                 </div>
             </div>
             <div class="cardStories">
                 <div class="topCont">
-                    <span class="buble"></span>
+                    <span class="buble"><img src="https://www.focusjunior.it/content/uploads/site_stored/imgs/0003/049/3nevevenezia.jpg" alt=""></span>
                 </div>
                 <div class="bottmCont">
-                    <span class="description">Spain</span>
+                    <span class="description">Thailand</span>
                 </div>
             </div>
             <div class="cardStories">
                 <div class="topCont">
-                    <span class="buble"></span>
+                    <span class="buble"><img src="https://siviaggia.it/wp-content/uploads/sites/2/2023/08/Charco-Azul-Chulilla.jpg?w=786&strip=all&quality=90" alt=""></span>
                 </div>
                 <div class="bottmCont">
-                    <span class="description">Spain</span>
+                    <span class="description">France</span>
                 </div>
             </div>
             <div class="cardStories">
                 <div class="topCont">
-                    <span class="buble"></span>
+                    <span class="buble"><img src="https://bonkaday.com/wp-content/uploads/2014/06/Immagini-suggestive-17.jpg" alt=""></span>
                 </div>
                 <div class="bottmCont">
-                    <span class="description">Spain</span>
+                    <span class="description">Germany</span>
                 </div>
             </div>
             <div class="cardStories">
                 <div class="topCont">
-                    <span class="buble"></span>
+                    <span class="buble"><img src="https://www.dailynautica.com/wp-content/uploads/2015/06/Cala-R.-Copertina.jpg" alt=""></span>
                 </div>
                 <div class="bottmCont">
-                    <span class="description">Spain</span>
+                    <span class="description">Creta</span>
                 </div>
             </div>
             <div class="cardStories">
                 <div class="topCont">
-                    <span class="buble"></span>
+                    <span class="buble"><img src="https://www.nationalgeographic.it/upload/ngi-hero/ld_covid_20200424-1.adapt_.1900.1.jpg" alt=""></span>
                 </div>
                 <div class="bottmCont">
-                    <span class="description">Spain</span>
-                </div>
-            </div>
-            <div class="cardStories">
-                <div class="topCont">
-                    <span class="buble"></span>
-                </div>
-                <div class="bottmCont">
-                    <span class="description">Spain</span>
+                    <span class="description">Maldives</span>
                 </div>
             </div>
         </div>
@@ -371,17 +344,17 @@
         </div>
 
         <div class="main">
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
+            <div class="cell"><img src="https://www.travelforbusiness.it/wp-content/uploads/2020/12/aeroplane-aircraft-airplane-1792072.jpg" alt=""></div>
+            <div class="cell"><img src="https://www.bnesim.com/wp-content/uploads/2023/12/KW-why-travel-is-important.jpg" alt=""></div>
+            <div class="cell"><img src="https://www.scti.co.nz/-/media/project/scti/nz/images/travel-advice/benefits-of-travelling/travel-makes-you-richer-couple-hiking-900x675.jpg" alt=""></div>
+            <div class="cell"><img src="https://container-news.com/wp-content/uploads/2021/04/Picture-1.jpg" alt=""></div>
+            <div class="cell"><img src="https://www.bsr.org/images/heroes/bsr-travel-hero..jpg" alt=""></div>
+            <div class="cell"><img src="https://media.cntraveler.com/photos/5e74f9de2e6ca30009d1d4fa/16:9/w_2560%2Cc_limit/Argentina-GettyImages-1146497849.jpg" alt=""></div>
+            <div class="cell"><img src="https://wlassets.motoguzzi.com/wlassets/moto-guzzi/master/Range/V85/PDP/V85_TT_Travel/gallery/MG_V85TT_Travel_gallery_1920x1440_4/original/MG_V85TT_Travel_gallery_1920x1440_4.jpg?1710928025405" alt=""></div>
+            <div class="cell"><img src="https://images.pexels.com/photos/2265876/pexels-photo-2265876.jpeg?cs=srgb&dl=pexels-vince-2265876.jpg&fm=jpg" alt=""></div>
+            <div class="cell"><img src="https://as2.ftcdn.net/v2/jpg/02/10/62/87/1000_F_210628780_W31xqDvUlwkeMlJ6cjCfiet5pzI4gSM3.jpg" alt=""></div>
+            <div class="cell"><img src="https://www.travelonart.com/wp-content/uploads/2022/03/cover_travel.jpg" alt=""></div>
+            <div class="cell"><img src="https://i0.wp.com/www.4utravel.it/wp-content/uploads/2023/10/4utravel-estero-mondo.jpg?resize=1024%2C901&ssl=1" alt=""></div>
         </div>
     </div>
 @endsection

@@ -33,27 +33,38 @@
 .contUserInfo {
     width: 100%;
     height: 33vh;
+
     .contTop {
         width: 100%;
         height: 50%;
         display: flex;
+
         .cellCircle {
             width: 35%;
             height: 100%;
+
             .circle {
                 display: block;
                 width: 100px;
                 height: 100px;
                 border-radius: 50%;
-                position: relative;
                 overflow: hidden;
+                border: 5px solid rgb(224, 65, 65);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
                 img {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
+                    width: 85px;
+                    height: 85px;
+                    border-radius: 50%;
+                    padding: 1px;
+
+
                 }
             }
         }
+
         .contFollowersUser {
             width: 65%;
             height: 100%;
@@ -67,13 +78,15 @@
                 align-items: center;
                 justify-content: center;
                 color: white;
+
                 .count {
                     font-weight: bold;
                 }
             }
-            
+
         }
     }
+
     .contBottom {
         width: 100%;
         height: 50%;
@@ -84,6 +97,7 @@
         padding: 0 1rem;
         color: white;
         font-size: .9rem;
+
         .bio {
 
             .name {
@@ -103,16 +117,18 @@
                 height: 100%;
                 display: flex;
                 justify-content: space-between;
+
                 button {
                     width: calc(100% / 2 - .2rem);
                     border: 0;
-                    background-color: gray;
+                    background-color: #504949;
                     color: white;
                     border-radius: .3rem;
                     font-weight: bold;
 
                 }
             }
+
             .right {
                 width: 10%;
                 background-color: gray;
@@ -124,7 +140,7 @@
 
             }
         }
-        
+
     }
 }
 
@@ -132,6 +148,7 @@
     width: 100%;
     height: 30vh;
     margin-top: 1rem;
+
     .contTop {
         height: 15%;
         width: 100%;
@@ -149,6 +166,7 @@
             font-weight: bold;
             color: white;
         }
+
         .last {
             width: 50%;
             height: 100%;
@@ -160,6 +178,7 @@
 
         }
     }
+
     .contBottom {
         width: 100%;
         height: 85%;
@@ -192,20 +211,23 @@
                     right: 5%;
                     top: 3%;
                 }
+
                 .containerPhoto {
                     width: 100%;
                     height: 50%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
+
                     .circle {
                         width: 75px;
                         height: 75px;
                         border-radius: 50%;
                         overflow: hidden;
-                        
+
                     }
                 }
+
                 .contBottom {
                     width: 100%;
                     height: 50%;
@@ -213,7 +235,7 @@
                     flex-direction: column;
                     align-items: center;
                     justify-content: space-between;
-                    
+
 
                     .contTxt {
                         height: 50%;
@@ -221,16 +243,19 @@
                         flex-direction: column;
                         align-items: center;
                         justify-content: flex-start;
+
                         .followers {
                             width: 100%;
                             font-size: .7rem;
                         }
                     }
+
                     .contBtn {
                         height: 50%;
                         width: 100%;
                         display: flex;
                         align-items: center;
+
                         .ms_btn {
                             width: 100%;
                             padding: .2rem 0;
@@ -264,6 +289,7 @@
             width: 80px;
             height: 100%;
             flex-shrink: 0;
+
             .topCont {
                 width: 100%;
                 height: 75%;
@@ -276,16 +302,30 @@
                     width: 60px;
                     height: 60px;
                     border-radius: 50%;
-                    background-color: black;
-                    border: 5px solid gray;
+                    border: 4px solid gray;
+                    overflow: hidden;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+
+                    img {
+                        width: 45px;
+                        height: 45px;
+                        padding: 1px;
+                        border-radius: 50%;
+                    }
+
                 }
             }
+
             .bottmCont {
                 width: 100%;
                 height: 25%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
                 .description {
                     color: white;
                     font-weight: bold;
@@ -299,10 +339,12 @@
 .contPosts {
     width: 100%;
     height: auto;
+
     .header {
         width: 100%;
         height: 7vh;
         display: flex;
+
         .div3 {
             width: calc(100% / 3);
             height: 100%;
@@ -312,6 +354,7 @@
             color: white;
         }
     }
+
     .main {
         width: 100%;
         height: auto;
@@ -321,7 +364,7 @@
         .cell {
             width: calc(100% / 3);
             height: 200px;
-            border: 1px solid white;
+            border: .1px solid rgb(20, 11, 51);
         }
     }
 }

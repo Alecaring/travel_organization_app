@@ -14,9 +14,11 @@ return new class extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('otp')->nullable()->unique();
-            $table->string('username')->nullable()->unique(); // Il nome potrebbe non essere presente nella fase iniziale
-            $table->string('email')->nullable()->unique(); // L'email può essere nulla se si usa il telefono
-            $table->string('phone')->nullable()->unique(); // Numero di telefono
+            $table->string('name')->nullable();
+            $table->string('surname')->nullable();
+            $table->string('username')->nullable()->unique();
+            $table->string('email')->nullable()->unique();
+            $table->string('phone')->nullable()->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
