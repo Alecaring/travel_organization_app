@@ -114,6 +114,7 @@ class RegisteredUserController extends Controller
         // Validate the second step
         $request->validate([
             'username' => ['required', 'string', 'max:255', 'unique:users,username'],
+            'nameComplete' => ['required', 'string', 'max:255'],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
         ]);
 
@@ -129,6 +130,7 @@ class RegisteredUserController extends Controller
 
         // Update the user's information
         $user->username = $request->username;
+        $user->nameComplete = $request->nameComplete;
         $user->password = Hash::make($request->password);
         $user->otp = null; // Clear OTP after successful registration
         $user->email_verified_at = now();

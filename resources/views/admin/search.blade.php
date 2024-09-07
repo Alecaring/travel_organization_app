@@ -1,23 +1,30 @@
 @extends('layouts.admin')
 
 @section('content')
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8 mt-4">
-                <div class="card">
-                    <div class="card-header">{{ __('search') }}</div>
-
-                    <div class="card-body">
-                        @if (session('status'))
-                            <div class="alert alert-success" role="alert">
-                                {{ session('status') }}
-                            </div>
-                        @endif
-
-                        {{ __('You are logged in!') }}
-                    </div>
-                </div>
-            </div>
+    <!-- Mostra messaggi di successo -->
+    @if (session('success'))
+        <div class="alert alert-success">
+            {{ session('success') }}
         </div>
-    </div>
+    @endif
+
+    <!-- Mostra messaggi di errore -->
+    @if (session('error'))
+        <div class="alert alert-danger">
+            {{ session('error') }}
+        </div>
+    @endif
+
+    <!-- Mostra URL dell'immagine se è stato caricato correttamente -->
+    @if (session('image_url'))
+        <div class="alert alert-info">
+            Immagine caricata: <a href="{{ session('image_url') }}" target="_blank">{{ session('image_url') }}</a>
+        </div>
+    @endif
+
+    <form action="{{ route('addPost.store') }}" method="POST" enctype="multipart/form-data">
+        @csrf
+        <input type="file" name="image" accept="image/*" id="file">
+        <button type="submit">Carica Immagine</button>
+    </form>
 @endsection

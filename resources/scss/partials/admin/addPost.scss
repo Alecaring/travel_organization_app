@@ -5,20 +5,49 @@
     height: 10vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     font-weight: bold;
     font-size: 1.5rem;
     color: white;
     border-bottom: .1px solid gray;
+    z-index: 1000;
+    background-color: rgb(20, 11, 51);
+
+    .contLeft {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contCenter {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contRight {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        color: #007bff;
+    }
 }
 
 .containerAddPhotosVideoMain {
-    position: fixed;
+    position: relative;
     top: 10vh;
     width: 100%;
     height: 80vh;
     color: white;
-    #wereNothing {
+
+    #previewText {
         width: 100%;
         height: 100%;
         display: flex;
@@ -26,10 +55,13 @@
         justify-content: center;
         flex-direction: column;
     }
+
+
     .title {
         font-size: 2rem;
         font-weight: 200;
     }
+
     .custom-file-label {
         display: inline-block;
         background-color: #007bff;
@@ -38,5 +70,112 @@
         border-radius: 5px;
         cursor: pointer;
     }
-    
+
+    .editor-controls {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 10vh;
+        display: none;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 1rem;
+        padding: 0 1rem;
+
+        #rotateLeft {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            border: 0;
+            background-color: rgb(159, 162, 163);
+            color: white;
+        }
+
+        #rotateRight {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            border: 0;
+            background-color: rgb(159, 162, 163);
+            color: white;
+        }
+    }
+
+    .mainContainerImagePreviewContainer {
+        width: 99%;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .ContainerAspectRatioButtons {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 10vh;
+        display: none;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1rem;
+        padding: 0 1rem;
+
+        .circleAspectRatioButtons {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            border: 0;
+            background-color: rgb(159, 162, 163);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .aspectRatioButtons {
+            width: 45%;
+            height: 30vh;
+            position: absolute;
+            bottom: 100%;
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: rgba(0, 0, 0, 0.827);
+            border-radius: 1rem;
+            transition: 1s ease-in-out;
+
+
+
+            button {
+                border: .1px solid gray;
+                padding: 1rem;
+                background-color: transparent;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-weight: bold;
+
+            }
+
+            button:nth-child(1) {
+                border-radius: 1rem 1rem 0 0;
+            }
+
+            button:nth-child(4) {
+                border-radius: 0 0 1rem 1rem;
+            }
+
+            button:nth-child(3) {
+                span {
+                    svg {
+                        transform: rotate(-90deg);
+                    }
+                }
+            }
+
+        }
+    }
+
 }

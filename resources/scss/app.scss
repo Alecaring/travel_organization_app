@@ -6,6 +6,11 @@
 @import './partials/admin/user.scss';
 @import './partials/admin/addPost.scss';
 
+#app {
+    width: 500px;
+    margin: 0 auto;
+    height: 100vh;
+}
 ::-webkit-scrollbar {
     display: none;
     background-color: transparent;

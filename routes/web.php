@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\AddPhotoController;
 use App\Http\Controllers\Auth\RegisteredUserController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UserProfileController;
 use App\Mail\ConfirmationCode;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
@@ -27,19 +29,29 @@ Route::post('/register-step2', [RegisteredUserController::class, 'handleStep2'])
 //     return 'Test email sent!';
 // });
 
-
+// home controller
 Route::get('/home', function () {
     return view('admin.dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+
+// search controller
 Route::get('/search', function () {
     return view('admin.search');
 })->middleware(['auth', 'verified'])->name('search');
+
+// reels controller
 Route::get('/reels', function () {
     return view('admin.reels');
 })->middleware(['auth', 'verified'])->name('reels');
+
+// add Post controller
 Route::get('/add-post', function () {
     return view('admin.addPost');
 })->middleware(['auth', 'verified'])->name('addPost');
+
+// -->
+
+// dasboard controller
 Route::get('/user', function () {
     return view('admin.user');
 })->middleware(['auth', 'verified'])->name('user');
@@ -50,6 +62,11 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+
+    Route::post('/add-post', [AddPhotoController::class, 'store'])->name('addPost.store');
+
+    Route::get('/index-user', [UserProfileController::class, 'index'])->name('index.user');
+
 });
 
 require __DIR__.'/auth.php';
